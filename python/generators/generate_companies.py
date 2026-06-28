@@ -69,7 +69,7 @@ for sector, values in sectors.items():
 
 df = pd.DataFrame(companies)
 
-output = Path("data/generated")
+output = Path("data/raw")
 output.mkdir(parents=True, exist_ok=True)
 
 df.to_csv(output / "companies.csv", index=False)

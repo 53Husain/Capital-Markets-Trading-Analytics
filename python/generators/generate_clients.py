@@ -75,7 +75,7 @@ for client_id in range(1, NUM_CLIENTS + 1):
 df = pd.DataFrame(records)
 
 # Create folder if not exists
-output_dir = Path("data/generated")
+output_dir = Path("data/raw")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 output_file = output_dir / "clients.csv"

@@ -8,9 +8,9 @@ from pathlib import Path
 np.random.seed(42)
 NUM_TRADES = 250000
 
-clients_file = Path("data/generated/clients.csv")
-prices_file = Path("data/generated/stock_prices.csv")
-output_file = Path("data/generated/trades.csv")
+clients_file = Path("data/raw/clients.csv")
+prices_file = Path("data/raw/stock_prices.csv")
+output_file = Path("data/raw/trades.csv")
 
 # -----------------------------
 # Load Parent Data

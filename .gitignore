@@ -1,17 +1,22 @@
-venv/
+# Virtual Environment
+.venv/
+
+# Python Cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-.env
-
+# VS Code
 .vscode/
 
+# Environment Variables
+.env
+
+# Logs
 *.log
 
-data/processed/
-exports/
-
-*.xlsx
-*.pdf
-
+# OS Files
 .DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

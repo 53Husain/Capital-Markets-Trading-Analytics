@@ -10,8 +10,8 @@ import numpy as np
 np.random.seed(42)
 random.seed(42)
 
-input_file = Path("data/generated/companies.csv")
-output_dir = Path("data/generated")
+input_file = Path("data/raw/companies.csv")
+output_dir = Path("data/raw")
 output_file = output_dir / "stock_prices.csv"
 
 # -----------------------------

@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 np.random.seed(42)
-output_file = Path("data/generated/market_indices.csv")
+output_file = Path("data/raw/market_indices.csv")
 
 end_date = datetime.today()
 start_date = end_date - timedelta(days=3*365)
